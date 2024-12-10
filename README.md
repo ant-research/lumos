@@ -27,9 +27,9 @@
 * [Update Log](#-update-log)
 * [Abstract](#-abstract)
 * [Setup](#️-setup)
-* [License](#-license)
 * [Citation](#-citation)
-* [Acknowledgement](#-acknowledgement)
+* [License](#license)
+* [Acknowledgement](#acknowledgement)
 
 
 ## 📣 Update Log
@@ -102,9 +102,6 @@ Install the required dependencies by following the command.
     ```
     If you are mainland user, you may try `export HF_ENDPOINT=https://hf-mirror.com` to use huggingface mirror to facilitate the download of some necessary checkpoints to run our system.
 
-## 🕊️ License
-This repository is released under the MiT license as found in the [LICENSE](LICENSE) file.
-
 ## 📖 Citation
 Don't forget to cite this source if it proves useful in your research!
 ```bibtex
@@ -117,6 +114,8 @@ Don't forget to cite this source if it proves useful in your research!
 	primaryClass={cs.CV}}
 ```
 
+## License
+This repository is released under the MiT license as found in the [LICENSE](LICENSE) file.
 
-## ❤️ Acknowledgement
+## Acknowledgement
 Our implementation is based on [DiT](https://github.com/nullquant/ComfyUI-BrushNet), [Pixart-α](https://github.com/facebookresearch/DiT) and [Dino](https://github.com/facebookresearch/dino). Thanks for their remarkable contribution and released code!
