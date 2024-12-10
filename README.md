@@ -27,9 +27,9 @@
 * [Update Log](#-update-log)
 * [Abstract](#-abstract)
 * [Setup](#️-setup)
-* [License](#license)
+* [License](#-license)
 * [Citation](#-citation)
-* [Acknowledgement](#acknowledgement)
+* [Acknowledgement](#-acknowledgement)
 
 
 ## 📣 Update Log
@@ -118,6 +118,5 @@ Don't forget to cite this source if it proves useful in your research!
 ```
 
 
-# ❤️ Acknowledgement
-<!-- ## 🤗 <a name="acknowledgement"></a>Acknowledgement -->
+## ❤️ Acknowledgement
 Our implementation is based on [DiT](https://github.com/nullquant/ComfyUI-BrushNet), [Pixart-α](https://github.com/facebookresearch/DiT) and [Dino](https://github.com/facebookresearch/dino). Thanks for their remarkable contribution and released code!
