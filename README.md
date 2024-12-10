@@ -27,9 +27,9 @@
 * [Update Log](#-update-log)
 * [Abstract](#-abstract)
 * [Setup](#️-setup)
-* [License](#-license)
+* [License](#license)
 * [Citation](#-citation)
-* [Acknowledgement](#-acknowledgement)
+* [Acknowledgement](#acknowledgement)
 
 
 ## 📣 Update Log
