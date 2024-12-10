@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumos</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/icon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/video_comparison.js"></script>
+
+  <link rel="stylesheet" href="./static/css/custom.css">
+
+</head>
+
+
+<style>
+    .title_background {
+    position: relative;
+    display: inline-block;
+    }
+
+    .title_background::before {
+        content: "";
+        position: absolute;
+        top: 10;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('static/images/t2i/A dramatic mountain range during a thunderstorm, with dark clouds, lightning strikes, and rugged terrain.jpg') no-repeat center/cover;
+        filter: brightness(70%);
+        z-index: -1; 
+    }
+</style>
+
+<section class="hero">
+<div class="title_background">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered ">
+          <h1 class="title is-2 model-name"><img src="static/images/logo.gif" width="200"></h1>
+          <h1 class="title is-2 publication-title">Learning Visual Generative Priors without Text</h1>
+          <div class="is-size-6 publication-authors">
+            
+            <span class="author-block">
+            <a href="https://scholar.google.com/citations?user=dNhzCu4AAAAJ&hl=zh-CN">Shuailei Ma*</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+            <a href="https://zkcys001.github.io/">Kecheng Zheng*</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+                <a href="https://ieeexplore.ieee.org/author/37836204100">Ying Wei</a><sup>✉,1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://weiwu-ww.github.io/">Wei Wu</a><sup>2</sup>,
+            </span>
+          </div>
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=ILpxpfwAAAAJ&hl=zh-CN">Fan Lu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=en&user=rQKkIykAAAAJ">Yifei Zhang</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=UHCDCRMAAAAJ&hl=en">Chen-Wei Xie</a><sup>4</sup>,
+              </span>
+            <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=BwdpTiQAAAAJ&hl=zh-CN">Biao Gong</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=-ACBm-gAAAAJ&hl=zh-TW">Jiapeng Zhu</a><sup>5</sup>,
+            </span>
+            <span class="author-block">
+                <a href="https://shenyujun.github.io/">Yujun Shen</a><sup>✉,2</sup>
+            </span>
+          </div>
+          <br/>
+          <div class="is-size-6 publication-authors">
+
+            <span class="author-block"><sup>1</sup>Northeastern University, China,</span>
+            <span class="author-block"><sup>2</sup>Ant Group,</span>
+            <span class="author-block"><sup>3</sup>Shanghai Jiao Tong University</span>
+            <span class="author-block"><sup>4</sup>Alibaba Group</span>
+            <span class="author-block"><sup>5</sup>Hong Kong University of Science and Technology </span>
+          </div>
+        </br></br>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-white">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-white">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-white">
+                  <span class="icon">
+                        <img src="static/images/huggingface_logo.svg">
+                  </span>
+                  <span>Hugging Face Model</span>
+                  </a>
+              </span>
+          
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+</div>
+
+<div class="div-2">
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Abstract</h2>
+      <p style="font-size:20px; text-align: justify; align-items: center;">
+        Although text-to-image (T2I) models have recently thrived as visual generative priors, their reliance on high-quality text-image pairs makes scaling up expensive.
+        We argue that grasping the cross-modality alignment is <em>not</em> a necessity for a sound visual generative prior, whose focus should be on texture modeling.
+        Such a philosophy inspires us to study image-to-image (I2I) generation, where models can learn from in-the-wild images in a self-supervised manner.
+        We first develop a pure vision-based training framework, <strong><em>Lumos</em></strong>, and confirm the feasibility and the scalability of learning I2I models.
+        We then find that, as an upstream task of T2I, our I2I model serves as a more foundational visual prior and achieves on-par or better performance than existing T2I models using only 1/10 text-image pairs for fine-tuning.
+        We further demonstrate the superiority of I2I priors over T2I priors on some text-irrelevant visual generative tasks, like image-to-3D and image-to-video.
+    </p>
+
+    </div>
+    
+  </div>
+</section>
+</div>
+
+
+
+<div class="div-1">
+    <section class="section">
+        <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Text-to-Image Generation</h2>
+            <h2 class="title is-5">Swipe to see more cases</h2>
+            <div class="scroll-container">
+              
+              <div class="scroll-item">
+                <img src="static/images/t2i/A dragon made of molten chocolate, with scales that glisten like gold leaf and eyes of crystalline sugar.jpeg">
+                <p class='caption' style="max-width: 350px;">A dragon made of molten chocolate, with scales that glisten like gold leaf and eyes of crystalline sugar</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A magical forest with glowing plants, where a young anime girl with long hair discovers a hidden portal.jpg">
+                <p class='caption' style="max-width: 350px;">A magical forest with glowing plants, where a young anime girl with long hair discovers a hidden portal</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A curious dolphin leaping out of the water, creating splashes in the sunlight.jpeg">
+                <p class='caption' style="max-width: 350px;">A curious dolphin leaping out of the water, creating splashes in the sunlight</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A baby rabbit wearing a tiny knitted hat, ultra-detailed, photorealistic.jpg">
+                <p class='caption'style="max-width: 530px;"> A baby rabbit wearing a tiny knitted hat, ultra-detailed, photorealistic</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/Bentley Bacalar driving on black tarmac road with trees in background, Sumi-e drawing, white background 8k.jpg">
+                <p class='caption'>Bentley Bacalar driving on black tarmac road with trees in background, Sumi-e drawing, white background 8k</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A bear with fur made of chocolate shavings, standing in a clearing filled with marshmallow mushrooms.jpeg">
+                <p class='caption' style="max-width: 350px;"> A bear with fur made of chocolate shavings, standing in a clearing filled with marshmallow mushrooms</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/a circular bed in the middle of an apartment with stairs leading up to it, cozy and warm interior design.png">
+                <p class='caption' style="max-width: 350px;" > A circular bed in the middle of an apartment with stairs leading up to it, cozy and warm interior design</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A close-up of a vibrant, fully bloomed red rose with dew drops on its petals.jpeg">
+                <p class='caption' style="max-width: 350px;"> A close-up of a vibrant, fully bloomed red rose with dew drops on its petals</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A close-up photograph of a lion with its mane blowing in the wind against the savanna backdrop.jpeg">
+                <p class='caption' style="max-width: 350px;">A close-up photograph of a lion with its mane blowing in the wind against the savanna backdrop</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A breathtaking view of the Swiss Alps during sunrise, with snow-capped peaks and lush green valleys, ultra-realistic, high detail.jpg">
+                <p class='caption' style="max-width: 875px;">A breathtaking view of the Swiss Alps during sunrise, with snow-capped peaks and lush green valleys, ultra-realistic, high detail</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A close-up of a sunlit butterfly resting on a flower in a garden.jpeg">
+                <p class='caption' style="max-width: 350px;"> A close-up of a sunlit butterfly resting on a flower in a garden</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A cyborg superhero with a robotic arm and high-tech gadgets, standing atop a skyscraper.jpg">
+                <p class='caption' style="max-width: 350px;">A cyborg superhero with a robotic arm and high-tech gadgets, standing atop a skyscraper</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A detailed close-up of a rusted vintage car abandoned in an overgrown field.jpg">
+                <p class='caption' style="max-width: 350px;">A detailed close-up of a rusted vintage car abandoned in an overgrown field</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/cloud.jpg">
+                <p class='caption' style="max-width: 350px;">This professional photo from National Geography shows the subtleties in a erased face of god in the shape of the subtle cloud but we can clearly see the face of almighty god with this stormy atmosphere that is brewing in this Nevada desert, volumetric lighting, high contrast</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A gorilla wearing an advanced robotic suit with pulsating energy cores, standing on the edge of a futuristic skyline.jpeg">
+                <p class='caption' style="max-width: 350px;">A gorilla wearing an advanced robotic suit with pulsating energy cores, standing on the edge of a futuristic skyline</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A group of astronauts standing on the surface of Mars, with Earth visible in the distant sky.png">
+                <p class='caption' style="max-width: 350px;">A group of astronauts standing on the surface of Mars, with Earth visible in the distant sky</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A hippopotamus with a body of jelly-like translucent gelatin, lounging in a pool of liquid sherbet.jpeg">
+                <p class='caption' style="max-width: 350px;">A hippopotamus with a body of jelly-like translucent gelatin, lounging in a pool of liquid sherbet</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A lion made entirely of layered caramel and chocolate, with a mane composed of spun sugar flames.jpeg">
+                <p class='caption' style="max-width: 350px;">A lion made entirely of layered caramel and chocolate, with a mane composed of spun sugar flames</p>
+              </div>
+              
+              <div class="scroll-item">
+                <img src="static/images/t2i/A lion with a mane made of holographic flames, standing on a crystal platform in a neon-lit jungle.jpeg">
+                <p class='caption' style="max-width: 350px;">A lion with a mane made of holographic flames, standing on a crystal platform in a neon-lit jungle</p>
+              </div>
+              
+              <div class="scroll-item">
+                <img src="static/images/t2i/A majestic bald eagle soaring over a snowy mountain range.jpeg">
+                <p class='caption' style="max-width: 350px;">A majestic bald eagle soaring over a snowy mountain range</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A majestic mountain range under a starry sky, with swirling clouds and glowing moonlight, inspired by Van Gogh.jpeg">
+                <p class='caption' style="max-width: 350px;">A majestic mountain range under a starry sky, with swirling clouds and glowing moonlight, inspired by Van Gogh</p>
+              </div>
+              
+              <div class="scroll-item">
+                <img src="static/images/t2i/A peaceful forest in autumn, with golden leaves falling and a stream running through it, illuminated by soft sunlight.png">
+                <p class='caption' style="max-width: 350px;">A peaceful forest in autumn, with golden leaves falling and a stream running through it, illuminated by soft sunlight</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A peaceful mountain lake reflecting the surrounding pine trees and snowy peaks, photorealistic, tranquil.jpg">
+                <p class='caption' style="max-width: 875px;">A peaceful mountain lake reflecting the surrounding pine trees and snowy peaks, photorealistic, tranquil</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A phoenix-like bird with wings made of fiery red fruit leather and a beak of candied citrus peel.jpeg">
+                <p class='caption' style="max-width: 350px;">A phoenix-like bird with wings made of fiery red fruit leather and a beak of candied citrus peel</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A realistic photograph of a wolf howling at the moon in a snowy forest.jpeg">
+                <p class='caption' style="max-width: 350px;">A realistic photograph of a wolf howling at the moon in a snowy forest</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A stealthy ninja superhero in a dark alley, showcasing agility and advanced technology.jpg">
+                <p class='caption' style="max-width: 350px;">A stealthy ninja superhero in a dark alley, showcasing agility and advanced technology</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/A wolf constructed from layers of dark chocolate and nougat, with glowing eyes made of candied cherries.jpeg">
+                <p class='caption' style="max-width: 350px;">A wolf constructed from layers of dark chocolate and nougat, with glowing eyes made of candied cherries</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/Kraken is listening to music with headphones.png">
+                <p class='caption' style="max-width: 350px;">Kraken is listening to music with headphones</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/An owl constructed from layers of caramel popcorn and hazelnut chocolate, perched on a pretzel branch.jpeg">
+                <p class='caption' style="max-width: 350px;">An owl constructed from layers of caramel popcorn and hazelnut chocolate, perched on a pretzel branch</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/anime husband and wife dressing in modern trendy clothes by Calvin Klein kissing intens, dynamic pose, big watery eyes, long-shot, digital art, brush strokes, painterly, impressionist style, half painted.jpg">
+                <p class='caption' style="max-width: 390px;">anime husband and wife dressing in modern trendy clothes by Calvin Klein kissing intens, dynamic pose, big watery eyes, long-shot, digital art, brush strokes, painterly, impressionist style, half painted</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/beautiful lady,freckles, big smile,blue eyes, short ginger hair, dark makeup, wearing a floral blue vest top, soft light,dark grey background.jpeg">
+                <p class='caption' style="max-width: 350px;">beautiful lady,freckles, big smile,blue eyes, short ginger hair, dark makeup, wearing a floral blue vest top, soft light,dark grey background, digital art, brush strokes, painterly, impressionist style, half painted</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/brand identification symbol without any words in the results , peaky blinders why hat and smoke.jpg">
+                <p class='caption' style="max-width: 150px;">brand identification symbol without any words in the results , peaky blinders why hat and smoke</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/The picture shows a cute little tiger, wearing a blue hoodie and hat, sitting on a small cardboard boat on calm water.png">
+                <p class='caption' style="max-width: 610px;">The picture shows a cute little tiger, wearing a blue hoodie and hat, sitting on a small cardboard boat on calm water</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/Documentary-style photography of a bustling marketplace in Marrakech, with spices and textiles.png">
+                <p class='caption' style="max-width: 350px;">Documentary-style photography of a bustling marketplace in Marrakech, with spices and textiles</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/golden sunset shines on the top of snow-capped mountains, with small villages at its foot and surrounding buildings.png">
+                <p class='caption' style="max-width: 350px;">golden sunset shines on the top of snow-capped mountains, with small villages at its foot and surrounding buildings</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/Post-Apocalyptic Wanderer, character design, style by kim jung gi, zabrocki, karlkka, jayison devadas, 8k.png">
+                <p class='caption' style="max-width: 150px;">Post-Apocalyptic Wanderer, character design, style by kim jung gi, zabrocki, karlkka, jayison devadas, 8k</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/Two baby ducks swimming in a pond at sunset, highly detailed, hyper-realistic.jpg">
+                <p class='caption' style="max-width: 875px;">Two baby ducks swimming in a pond at sunset, highly detailed, hyper-realistic</p>
+              </div>
+
+              <div class="scroll-item">
+                <img src="static/images/t2i/Two female rabbit adventurers dressed in a fancy velvet coats next to a Christmas tree, Christmas theme, on an antique opulent background , jean - baptiste monge , smooth, anthropomorphic photorealistic, photography, lifelike, high resolution, smooth.jpg">
+                <p class='caption' style="max-width: 400px;">Two female rabbit adventurers dressed in a fancy velvet coats next to a Christmas tree, Christmas theme, on an antique opulent background , jean - baptiste monge , smooth, anthropomorphic photorealistic, photography, lifelike, high resolution, smooth</p>
+              </div>
+
+            </div>
+            
+            <script src="static/js/scroll.js"></script>
+            
+            </div>
+
+          </div>
+    
+    </section>
+</div>
+
+
+<div class="div-1">
+    <section class="section">
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Novel View Synthesis</h2>
+            <h2 class="title is-5">Click to see different cases</h2>
+            <div class="choice_container">
+                <div class="image-list">
+                    <img src="static/images/i23d/1.png" alt="Image 1" data-large="static/images/i23d/1.png">
+                    <img src="static/images/i23d/2.png" alt="Image 2" data-large="static/images/i23d/2.png">
+                    <img src="static/images/i23d/3.png" alt="Image 3" data-large="static/images/i23d/3.png">
+                    <img src="static/images/i23d/4.png" alt="Image 4" data-large="static/images/i23d/4.png">
+                </div>
+                    
+                <div class="selected-image" style="margin-left: 10px;">
+                    <div class='caption' style="margin-top: -60px;"> Image</div>
+                    <img src="static/images/i23d/1.png" alt="Selected Image", style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border: 2px solid #ccc; margin-top: 50px;">
+                </div>
+                <div class="selected-image" style="position: relative; top:-3px; margin-left: 10px;">
+                <div class='caption'> Novel Views</div>
+                <div class="new-view-container", style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)">
+                    <img src="static/images/i23d/1-1.png" alt="New View Selected Image 1">
+                    <img src="static/images/i23d/1-2.png" alt="New View Selected Image 2">
+                    <img src="static/images/i23d/1-3.png" alt="New View Selected Image 3">
+                    <img src="static/images/i23d/1-4.png" alt="New View Selected Image 4">
+                    <img src="static/images/i23d/1-5.png" alt="New View Selected Image 5">
+                    <img src="static/images/i23d/1-6.png" alt="New View Selected Image 6">
+                </div>
+            </div>
+
+
+            <script src="static/js/choose_image.js"></script>
+        </div>
+    </div>
+    </div>
+    </section>
+</div>
+
+
+<div class="div-1">
+    <section class="section">
+        <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Image-to-Video Generation</h2>
+            <h2 class="title is-5">Place the mouse over the image to watch the video</h2>
+        
+                <div class="gif-container">
+                    <img class="gif-hover-image" src="static/images/i2v/fire/fire.png" data-gif="static/images/i2v/fire/fire.gif">
+                    <img class="gif-hover-image" src="static/images/i2v/cloud/cloud.png" data-gif="static/images/i2v/cloud/cloud.gif">
+                    <img class="gif-hover-image" src="static/images/i2v/waterfall/waterfall.png" data-gif="static/images/i2v/waterfall/waterfall.gif">
+                </div>
+
+                <div class="gif-container">
+
+                    <img class="gif-hover-image" src="static/images/i2v/meteor/meteor.png" data-gif="static/images/i2v/meteor/meteor.gif" alt="image-gif 2">
+                    <img class="gif-hover-image" src="static/images/i2v/cake/cake.png" data-gif="static/images/i2v/cake/cake.gif" alt="image-gif 1">
+                    <img class="gif-hover-image" src="static/images/i2v/boat/boat.png" data-gif="static/images/i2v/boat/boat.gif" alt="image-gif 2">
+                </div>
+            
+                <script src="static/js/image2gif.js"></script>
+            
+        </div>
+        </div>
+        
+    </div>
+    </section>
+</div>
+
+<div class="div-1">
+    <section class="section">
+        <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Image Interpolation</h2>
+            
+            <div class= "gallery">
+            
+                <div class="gif-container">
+                    <img src="static/images/interpolation/car/start.png">
+                    <img src="static/images/interpolation/car/interpolation.gif">
+                    <img src="static/images/interpolation/car/end.png">
+                </div>
+            </br>
+                <div class="gif-container">
+                    <img src="static/images/interpolation/cat_tiger/start.png">
+                    <img src="static/images/interpolation/cat_tiger/interpolation.gif">
+                    <img src="static/images/interpolation/cat_tiger/end.png">
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+    </section>
+</div>
+
+
+<div class="div-1">
+    <section class="section">
+        <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Method</h2>
+            
+                <img src="static/images/method/method.png" style="width: 900px;">
+                    
+        </div>
+        </div>
+        
+    </div>
+    </section>
+</div>
+
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{Lumos2025,
+          title   = {Learning Visual Generative Priors without Text},
+          author  = {Ma, Shuailei and Zheng, Kecheng and Wei, Ying and Wu, Wei and Lu, Fan and Zhang, Yifei and Xie, Chen-Wei and Gong, Biao and Zhu, Jiapeng and Shen, Yujun},
+          journal = {arXiv},
+          year    = {2024}
+      }
+  </code></pre>
+    </div>
+  </section>
