@@ -24,12 +24,12 @@
 </div> 
 
 ## 📝 Content
-* [Update Log](#📣-update-log)
-* [Abstract](#🪄✨-abstract)
-* [Setup](#️⚙️-setup)
-* [License](#🕊️-license)
-* [Citation](#📖-citation)
-* [Acknowledgement](#❤️-acknowledgement)
+* [Update Log](#-update-log)
+* [Abstract](#-abstract)
+* [Setup](#️-setup)
+* [License](#-license)
+* [Citation](#-citation)
+* [Acknowledgement](#-acknowledgement)
 
 
 ## 📣 Update Log
