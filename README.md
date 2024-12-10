@@ -3,7 +3,7 @@
 </p> 
 
 ### <div align="center"> Learning Visual Generative Priors without Text<div> 
-<div style="text-align: center;">
+<div style="align:center; text-align: center">
   <a href="https://scholar.google.com/citations?user=dNhzCu4AAAAJ&hl=zh-CN">Shuailei Ma*</a><sup>1</sup>,
   <a href="https://zkcys001.github.io/">Kecheng Zheng*</a><sup>2</sup>,
   <a href="https://ieeexplore.ieee.org/author/37836204100">Ying Wei✉️</a><sup>1</sup>,            <a href="https://weiwu-ww.github.io/">Wei Wu</a><sup>2</sup>, <a href="https://scholar.google.com/citations?user=ILpxpfwAAAAJ&hl=zh-CN">Fan Lu</a><sup>2</sup>,
@@ -17,8 +17,8 @@
 <br>
 <div style="text-align: center;">
   <a href=""><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Lumos&color=red&logo=arxiv"></a> &ensp;
-  <a href="https://github.com/xiaomabufei.github.io/lumos/"><img src="https://img.shields.io/badge/Project-Website-blue"></a> &ensp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=HuggingFace&color=yellow"></a> &ensp;
+  <a href="https://xiaomabufei.github.io/lumos/"><img src="https://img.shields.io/badge/Project-Website-blue"></a> &ensp;
+  <a href="https://huggingface.co/Xiaomabufei/lumos"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=HuggingFace&color=yellow"></a> &ensp;
 </div>
 
 
