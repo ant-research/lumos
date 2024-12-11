@@ -36,7 +36,7 @@
 - [2024.11.21] 🎉 Here comes Lumos, we release the code and gradio demos of Lumos-I2I and Lumos-T2I. 
 
 ## 🪄✨ Abstract
-<b>TL; DR: <font color="purple">Lumos</font> is a pure vision-based generative framework, which confirms the feasibility and the scalability of learning visual generative priors. It can be efficiently adapted to visual generative tasks such as text-to-image, image-to-3D, and image-to-video generation.</b>
+<b>TL; DR: <font color="red">Lumos</font> is a pure vision-based generative framework, which confirms the feasibility and the scalability of learning visual generative priors. It can be efficiently adapted to visual generative tasks such as text-to-image, image-to-3D, and image-to-video generation.</b>
 <details><summary>CLICK for the full abstract</summary>
 Although text-to-image (T2I) models have recently thrived as visual generative priors, their reliance on high-quality text-image pairs makes scaling up expensive.
 We argue that grasping the cross-modality alignment is not a necessity for a sound visual generative prior, whose focus should be on texture modeling.
