@@ -18,7 +18,7 @@
 <br>
 <div style="text-align: center;">
   <a href="https://arxiv.org/pdf/2412.07767"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Lumos&color=red&logo=arxiv"></a> &ensp;
-  <a href="https://xiaomabufei.github.io/lumos/"><img src="https://img.shields.io/badge/Project-Website-blue"></a> &ensp;
+  <a href="https://ant-research.github.io/lumos/"><img src="https://img.shields.io/badge/Project-Website-blue"></a> &ensp;
   <a href="https://huggingface.co/Xiaomabufei/lumos"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=HuggingFace&color=yellow"></a> &ensp;
 </div>
 </div> 
